@@ -1,5 +1,5 @@
 const jwt=require('jsonwebtoken');
-const Secretkey=require('../configuration/jwtconfig');
+const Secretkey=require('../configuration/jwtConfig');
 
 // is ka kaam token ko generate karna hai
 function generateToken(user){

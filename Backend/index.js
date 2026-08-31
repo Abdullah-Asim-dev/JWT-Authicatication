@@ -7,7 +7,7 @@ const loginRouter=require('./routes/login');
 const bodyParser=require('body-parser');
 const cors=require('cors');
 const dotenv=require('dotenv');
-dotenv.config();
+dotenv.Config();
 const CreateAdminAccount=require('./scripts/admin')
 const app=express();
 const port=process.env.PORT || 3000;
