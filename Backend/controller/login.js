@@ -1,8 +1,8 @@
 const bcrypt = require('bcrypt');
 // Purane path ko mita kar yeh likhein:
-const { generateToken } = require('../utils/jwtutils');
+const { generateToken } = require('../utils/jwtUtils')
 
-const User = require('../models/user');
+const User = require('../models/User');
 async function login (req,res){
 try{
 const {email,password}=req.body;
