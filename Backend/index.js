@@ -2,7 +2,7 @@ const dns =require('dns')
 dns.setServers(["8.8.8.8","8.8.4.4"])
 const express=require('express');
 const mongoose =require('mongoose')
-const signupRouter=require('./routes/signup');
+const signupRouter=require('./routes/Signup');
 const loginRouter=require('./routes/login');
 const bodyParser=require('body-parser');
 const cors=require('cors');
