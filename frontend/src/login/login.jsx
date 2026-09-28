@@ -66,19 +66,7 @@ function Login() {
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
-        <motion.div
-          animate={{
-            x: [0, 80, 0],
-            y: [0, -40, 0],
-            scale: [1, 1.15, 1],
-          }}
-          transition={{
-            duration: 12,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -left-40 -top-40 h-[500px] w-[500px] rounded-full bg-emerald-500/20 blur-[130px]"
-        />
+
 
         <motion.div
           animate={{
